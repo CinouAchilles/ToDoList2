@@ -28,7 +28,7 @@ Follow these steps to get the app up and running locally.
    First, clone the project repository to your local machine by running the following command:
 
    ```bash
-   git clone https://github.com/CinouAchilles/ToDoList.git
+   git clone https://github.com/CinouAchilles/ToDoList2.git
 2. **Change Directory:**
 
    Navigate to the project directory:
