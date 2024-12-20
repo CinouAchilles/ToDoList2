@@ -1,0 +1,40 @@
+.tasks{
+  transition: all ease-in-out 0.2s;
+}
+.tasks:hover {
+  /* padding-top: 25px !important;
+  padding-bottom: 25px !important; */
+  transform: scale(1.03);
+  box-shadow: 0 5px 5px 2px grey;
+}
+.btni{
+  transition: all ease-in-out 0.25s !important;
+}
+.btni:hover{
+  transform: scale(1.15);
+  box-shadow: 0 2px 5px 3px grey;
+}
+.swal2-container {
+  backdrop-filter: blur(5px);
+  transition: all ease-out 0.25s
+}
+.disc{
+  margin-top: 6px;
+}
+@media (max-width:470px){
+  .tasks{
+    gap: 20px !important;
+  }
+  .title{
+    font-size: x-large !important;
+  }
+  .disc{
+    font-size:medium !important;  
+  }
+  .upchoose{
+    overflow-x: scroll
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap');
